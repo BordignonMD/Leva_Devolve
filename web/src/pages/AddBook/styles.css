@@ -1,0 +1,138 @@
+  #add-book {
+    width: 100%;
+    max-width: 1100px;
+  
+    margin: 0 auto;
+  }
+  
+  #add-book header {
+    margin-top: 48px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #add-book header a {
+    color: var(--title-color);
+    font-weight: bold;
+    text-decoration: none;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  #add-book header a svg {
+    margin-right: 16px;
+    color: var(--primary-color);
+  }
+  
+  #add-book form {
+    margin: 80px auto;
+    padding: 64px;
+    max-width: 730px;
+    background: #fff;
+    border-radius: 8px;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #add-book form h1 {
+    font-size: 36px;
+  }
+  
+  #add-book form fieldset {
+    margin-top: 64px;
+    min-inline-size: auto;
+    border: 0;
+  }
+  
+  #add-book form legend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  #add-book form legend h2 {
+    font-size: 24px;
+  }
+  
+  #add-book form legend span {
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--text-color);
+  }
+  
+  #add-book form .field {
+    flex: 1;
+  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  
+  #add-book form .field input[type="text"], 
+  #add-book form .field input[type="number"],
+  #add-book form .field input[type="date"] {
+    flex: 1;
+    background: #f0f0f5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
+  }
+  
+  #add-book form .field textarea {
+    flex: 1;
+    background: #f0f0f5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
+  }
+  
+  #add-book form .field select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    flex: 1;
+    background: #f0f0f5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6c6c80;
+  }
+  
+  #add-book form .field input::placeholder {
+    color: #a0a0b2;
+  }
+  
+  #add-book form .field label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  #add-book form .field :disabled {
+    cursor: not-allowed;
+  }
+  
+  #add-book form button {
+    width: 260px;
+    height: 56px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }  
